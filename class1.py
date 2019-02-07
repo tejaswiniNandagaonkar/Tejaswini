@@ -62,3 +62,19 @@ list1.sort(reverse= True)
 print("the number is max",list1[0])
 
 
+
+list = [20,30,100,1,4,78,9,2,10,8]
+i = 0
+while i <= 5:
+    if i < list[i]:
+        max = list[i]
+        i += 1
+print(list[i])
+
+
+#For Loop
+
+for i in range(0, 5):
+    for j in range(0, i):
+        print(j, end=" ")
+    print('')
