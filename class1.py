@@ -1,9 +1,9 @@
-'''
-1) write a code to find maximum number from 5 values
-2) write a code to find minimum number from 5 values
-3) write a code to find maximum number from 10 values with only single if statement
-4) write a code to find minimum number from 10 values with only single if statement
-'''
+# '''
+# 1) write a code to find maximum number from 5 values
+# 2) write a code to find minimum number from 5 values
+# 3) write a code to find maximum number from 10 values with only single if statement
+# 4) write a code to find minimum number from 10 values with only single if statement
+# '''
 num1 = 100
 num2 = 20
 num3 = 60
@@ -51,5 +51,14 @@ else:
 
 print("The smallest is",smallest)
 
-a = ''
-b = ''
+
+list1 = [20,90,280,500,22,25,89,100,266,1]
+list1.sort(reverse= False)
+print("the number is max",list1[0])
+
+
+list1 = [20,90,280,500,22,25,89,100,266,1]
+list1.sort(reverse= True)
+print("the number is max",list1[0])
+
+
