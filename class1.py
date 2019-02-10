@@ -130,5 +130,12 @@ for i in range (1, 7):
         end = 0
         inc = -1
     for j in range(start,end,inc):
-        print(j*num, end=" ")
+        print("%02d"%(j*num)   , end=" ")
     print(" ")
+
+
+print("###########################################")
+
+s=" "
+for i in range(1, 6):
+    for
